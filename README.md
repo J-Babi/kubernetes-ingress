@@ -26,7 +26,7 @@ $ chmod 700 get_helm.sh
 ## 1. Clone Kubernetes Nginx Ingress Manifests into server where you have kubectl
 
 ```
-$ git clone https://github.com/MithunTechnologiesDevOps/kubernetes-ingress.git
+$ git clone https://github.com/J-Babi/kubernetes-ingress
 
 $ cd kubernetes-ingress/deployments
 ```
