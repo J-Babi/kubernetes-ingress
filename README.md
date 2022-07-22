@@ -47,12 +47,14 @@ We include two options for deploying the Ingress controller:
  * *Deployment*. Use a Deployment if you plan to dynamically change the number of Ingress controller replicas.
  * *DaemonSet*. Use a DaemonSet for deploying the Ingress controller on every node or a subset of nodes.
 
-### 4.1 Create a DaemonSet
+### 4.1 Create a Deployment or DaemonSet
 
 When you run the Ingress Controller by using a DaemonSet, Kubernetes will create an Ingress controller pod on every node of the cluster.
 
 ```
  $ kubectl apply -f daemon-set/nginx-ingress.yaml
+        or
+ $ kubectl apply -f deployment/nginx-ingress.yaml
  ```
 
 ## 5. Check that the Ingress Controller is Running
